@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Session SYSTEM "Session-4.4.dtd">
+<!-- eric4 session file for project Django-ORM Standalone -->
+<!-- This file was generated automatically, do not edit. -->
+<!-- Saved: 2012-10-07, 14:20:45 -->
+<Session version="4.4">
+  <Filenames>
+    <Filename cline="4" cindex="17" folds="" zoom="0">L:\Python Projekte\Django-ORM Standalone\settings.py</Filename>
+    <Filename cline="323" cindex="20" folds="" zoom="0">L:\Python Projekte\Django-ORM Standalone\main.py</Filename>
+    <Filename cline="24" cindex="41" folds="" zoom="0">L:\Python Projekte\Django-ORM Standalone\db\models.py</Filename>
+  </Filenames>
+  <ActiveWindow cline="4" cindex="17">L:\Python Projekte\Django-ORM Standalone\settings.py</ActiveWindow>
+  <Breakpoints>
+  </Breakpoints>
+  <Watchexpressions>
+  </Watchexpressions>
+  <DebugInfo>
+    <CommandLine></CommandLine>
+    <WorkingDirectory></WorkingDirectory>
+    <Environment></Environment>
+    <ReportExceptions value="True" />
+    <Exceptions>
+    </Exceptions>
+    <IgnoredExceptions>
+    </IgnoredExceptions>
+    <AutoClearShell value="True" />
+    <TracePython value="False" />
+    <AutoContinue value="True" />
+    <CovexcPattern></CovexcPattern>
+  </DebugInfo>
+  <Bookmarks>
+  </Bookmarks>
+</Session>

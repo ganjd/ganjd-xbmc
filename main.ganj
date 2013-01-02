@@ -1,0 +1,66 @@
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+from PyQt4 import QtGui
+
+from Lib.loadSettings import LoadSettings
+import restartScript
+
+
+
+def main():
+    
+    app = QtGui.QApplication(sys.argv)
+    
+#    try:
+        
+    #--------------------------------------------------
+    #Style Options
+    #--------------------------------------------------
+    app.setStyle(LoadSettings().style())
+    #-----------------Ende---------------------------
+
+
+    if not os.path.isfile(LoadSettings().db_Projekt()):
+        
+        from Ui.start import Start
+        
+        myapp = Start()
+        myapp.show() 
+        app.exec_()
+        
+        if myapp.restart == False:
+            sys.exit()
+        else:
+            main()
+            
+        
+    else:
+        from Ui.mainwindow import MainWindow
+#        from SplashScreen import SplashScreen
+#        splash = SplashScreen()
+    
+#        splash.showMessage('Lade Datenbank')
+    
+        
+        myapp = MainWindow(app)       
+        
+        myapp.show() 
+#        splash.finish(myapp)
+        ret = app.exec_()
+        
+        if ret == 1000:
+            myapp.close()
+            restartScript.main()
+    #            os.execl(os.getcwd()+'/main.py', '')
+        sys.exit()
+
+
+
+
+if __name__ == "__main__":
+    main()
+    
+
+

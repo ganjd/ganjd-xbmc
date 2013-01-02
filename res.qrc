@@ -1,0 +1,43 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>res/100px_logo_galabau.png</file>
+    <file>res/1314470636_br_down.png</file>
+    <file>res/1314482878_br_up.png</file>
+    <file>res/1318968719_x-office-spreadsheet.png</file>
+    <file>res/1318968748_human-folder-public.png</file>
+    <file>res/1318968775_stock_mail-filters-apply.png</file>
+    <file>res/1318968798_add-folder-to-archive.png</file>
+    <file>res/1318968848_stock_task-assigned-to.png</file>
+    <file>res/1318968876_application-x-extension-nfo.png</file>
+    <file>res/1318969058_document-new.png</file>
+    <file>res/1318969172_gtk-dnd-multiple.png</file>
+    <file>res/1318969217_stock_new-window.png</file>
+    <file>res/1318969228_applications-development.png</file>
+    <file>res/1318969250_gnome-planner.png</file>
+    <file>res/1318972409_view_detailed.png</file>
+    <file>res/1326055831_user-group-new.png</file>
+    <file>res/1326055861_document-edit.png</file>
+    <file>res/1326055942_emblem-nowrite.png</file>
+    <file>res/Burn Folder.png</file>
+    <file>res/Documents Folder.png</file>
+    <file>res/Downloads Folder.png</file>
+    <file>res/filter_data.png</file>
+    <file>res/Generic Folder.png</file>
+    <file>res/group.png</file>
+    <file>res/Images Folder.png</file>
+    <file>res/Msn-Messenger-icon.png</file>
+    <file>res/Music Folder.png</file>
+    <file>res/New File.png</file>
+    <file>res/New Folder.png</file>
+    <file>res/Private Folder.png</file>
+    <file>res/Project-icon.png</file>
+    <file>res/question_mark_blue.png</file>
+    <file>res/Settings.png</file>
+    <file>res/Status-user-offline-icon.png</file>
+    <file>res/Status-user-online-icon.png</file>
+    <file>res/Uploads Folder.png</file>
+    <file>res/Users Folder.png</file>
+    <file>res/users.png</file>
+    <file>res/Videos Folder.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+/_eric4project/
+/.eric4project/
+*.pyc
+*.ui
+*.e4p
+*.exe
