@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project Django-ORM Standalone -->
+<!-- Saved: 2012-10-07, 14:20:45 -->
+<!-- Copyright (C) 2012 ,  -->
+<Project version="4.6">
+  <Language></Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Django</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <TranslationPattern>locale/%language%/LC_MESSAGES/django.po</TranslationPattern>
+  <Sources>
+    <Source>db/models.py</Source>
+    <Source>db/__init__.py</Source>
+    <Source>main.py</Source>
+    <Source>manage.py</Source>
+    <Source>settings.py</Source>
+    <Source>__init__.py</Source>
+    <Source>datenbankHandler.py</Source>
+    <Source>db/migrations/0001_initial.py</Source>
+    <Source>db/migrations/0002_auto__del_projects__add_belege_details__add_ak__add_projekte__add_a_ta.py</Source>
+    <Source>db/migrations/__init__.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.html" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.htm" type="FORMS" />
+    <FiletypeAssociation pattern="*.po" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.js" type="FORMS" />
+    <FiletypeAssociation pattern="*.mo" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+  </FiletypeAssociations>
+</Project>
